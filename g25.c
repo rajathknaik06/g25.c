@@ -25,6 +25,13 @@ The third line consists of an integer C, representing the CIBIL score.
 Output format :
 The output displays status and eligibility as strings.*/
 
+/*Depending on the CIBIL score range:
+750-850: Excellent score, eligible.
+700-749: Good score, eligible.
+650-699: Fair score, eligible.
+550-649: Poor score, not eligible.
+Any other score: Not applicable.*/
+
 
 #include <stdio.h>
 
